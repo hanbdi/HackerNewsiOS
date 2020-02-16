@@ -33,13 +33,6 @@ class TopStoriesTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        // only allow to select cell if url is valid
-        if (story?.isValidUrl()).or(false) {
-            super.setSelected(selected, animated: animated)
-        }
-    }
-    
 }
 
 private extension TopStoriesTableViewCell {
