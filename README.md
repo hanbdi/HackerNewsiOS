@@ -1,4 +1,4 @@
-# Hacker News iOS app
+# Hacker News iOS app [![Build Status](https://travis-ci.com/hanbdi/HackerNewsiOS.svg)](https://travis-ci.com/hanbdi/HackerNewsiOS)
 A Hacker News iOS app to fetch top stories.
 
 ## Getting Started
