@@ -44,11 +44,12 @@ class TopStoriesViewControllerTests: XCTestCase {
         XCTAssertTrue(table.exists)
         
         let firstCell = table.cells.element(boundBy: 1)
-        _ = firstCell.waitForExistence(timeout: 8)
+        _ = firstCell.waitForExistence(timeout: 20)
         XCTAssertTrue(firstCell.exists)
         firstCell.tap()
         
         let urlButton = app.buttons["URL"]
+        _ = urlButton.waitForExistence(timeout: 20)
         XCTAssertTrue(urlButton.exists)
     }
 }
