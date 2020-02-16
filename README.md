@@ -51,6 +51,7 @@ A Hacker News iOS app to fetch top stories.
         - Implement lazy loading to load more stories, page size 20 stories for each load more request
         - Pull down to refresh latest top stories
         - For network service, I'm using URLSession to fetch data from firebase endpoint. It's easy to switch to other service library by just conform to StoryServiceProtocol and implement your own network fetching (Firebase client for example)
+        - Support self-sizing cells
     - Story Details
         - Using SFSafariViewController to load story url and display on UI as this is no customize required (can use WKWebView also)
 
@@ -59,3 +60,4 @@ A Hacker News iOS app to fetch top stories.
 - Using DispatchGroup to make requests concurrent
 - Stub for Unit Test so no real network call will hit server during UT and it's ideal isolated for assertion purpose (API contract testing)
 - Some stories does not have url returned. To handle this, I decide to show on UI right arrow to indicate it has details if it has valid url, otherwise no arrow will be shown and proper error message will be shown when click on invalid story url.
+- Due to story title is too long, I customized table view cell (TopStoriesTableViewCell) to be self-sizing cells so it can show full story title instead of one line trailing if using default UITableViewCell with style .subTitle  
