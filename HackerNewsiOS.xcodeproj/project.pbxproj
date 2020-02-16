@@ -12,6 +12,11 @@
 		45FBFECF23F8E2BA0045A202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FBFECD23F8E2BA0045A202 /* LaunchScreen.storyboard */; };
 		45FBFEDA23F8E2BA0045A202 /* HackerNewsiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFED923F8E2BA0045A202 /* HackerNewsiOSTests.swift */; };
 		45FBFEE523F8E2BA0045A202 /* HackerNewsiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFEE423F8E2BA0045A202 /* HackerNewsiOSUITests.swift */; };
+		45FBFEFB23F8F3D40045A202 /* TopStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFEFA23F8F3D40045A202 /* TopStoriesViewController.swift */; };
+		45FBFEFE23F8F44D0045A202 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFEFD23F8F44D0045A202 /* UIColor.swift */; };
+		5855D03A1F74063BA8B76047 /* Pods_HackerNewsiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1DA70544E916B621F92ED7 /* Pods_HackerNewsiOSTests.framework */; };
+		5CC2864024BBF20A6B0521F1 /* Pods_HackerNewsiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACD2EF6C45469F9479ADC4D /* Pods_HackerNewsiOS.framework */; };
+		816D3D2AB9C628FFD82847AF /* Pods_HackerNewsiOS_HackerNewsiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F015D836B2C077A2ADD085 /* Pods_HackerNewsiOS_HackerNewsiOSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09720BE996419F3108BA85B0 /* Pods-HackerNewsiOS-HackerNewsiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNewsiOS-HackerNewsiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-HackerNewsiOS-HackerNewsiOSUITests/Pods-HackerNewsiOS-HackerNewsiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		41F015D836B2C077A2ADD085 /* Pods_HackerNewsiOS_HackerNewsiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerNewsiOS_HackerNewsiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B238EE6306407FB3F4EF37 /* Pods-HackerNewsiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNewsiOS.release.xcconfig"; path = "Target Support Files/Pods-HackerNewsiOS/Pods-HackerNewsiOS.release.xcconfig"; sourceTree = "<group>"; };
 		45FBFEBF23F8E2B60045A202 /* HackerNewsiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerNewsiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FBFEC223F8E2B60045A202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45FBFECB23F8E2BA0045A202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +51,14 @@
 		45FBFEE023F8E2BA0045A202 /* HackerNewsiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerNewsiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FBFEE423F8E2BA0045A202 /* HackerNewsiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsiOSUITests.swift; sourceTree = "<group>"; };
 		45FBFEE623F8E2BA0045A202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FBFEFA23F8F3D40045A202 /* TopStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesViewController.swift; sourceTree = "<group>"; };
+		45FBFEFD23F8F44D0045A202 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		4E1DA70544E916B621F92ED7 /* Pods_HackerNewsiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerNewsiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D1E1EB5E36FE3AA9B5D658 /* Pods-HackerNewsiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNewsiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-HackerNewsiOSTests/Pods-HackerNewsiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC2CCB358F1E942F4BA9842C /* Pods-HackerNewsiOS-HackerNewsiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNewsiOS-HackerNewsiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-HackerNewsiOS-HackerNewsiOSUITests/Pods-HackerNewsiOS-HackerNewsiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BB0FEE236CF046062FCF631B /* Pods-HackerNewsiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNewsiOSTests.release.xcconfig"; path = "Target Support Files/Pods-HackerNewsiOSTests/Pods-HackerNewsiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D25E44BBCD156296DC478375 /* Pods-HackerNewsiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNewsiOS.debug.xcconfig"; path = "Target Support Files/Pods-HackerNewsiOS/Pods-HackerNewsiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EACD2EF6C45469F9479ADC4D /* Pods_HackerNewsiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerNewsiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC2864024BBF20A6B0521F1 /* Pods_HackerNewsiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5855D03A1F74063BA8B76047 /* Pods_HackerNewsiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816D3D2AB9C628FFD82847AF /* Pods_HackerNewsiOS_HackerNewsiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D83B2DDB98E28E6AD37C196 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EACD2EF6C45469F9479ADC4D /* Pods_HackerNewsiOS.framework */,
+				41F015D836B2C077A2ADD085 /* Pods_HackerNewsiOS_HackerNewsiOSUITests.framework */,
+				4E1DA70544E916B621F92ED7 /* Pods_HackerNewsiOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		45FBFEB623F8E2B60045A202 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +106,8 @@
 				45FBFED823F8E2BA0045A202 /* HackerNewsiOSTests */,
 				45FBFEE323F8E2BA0045A202 /* HackerNewsiOSUITests */,
 				45FBFEC023F8E2B60045A202 /* Products */,
+				B4E55FE68B2570D76DFC341A /* Pods */,
+				2D83B2DDB98E28E6AD37C196 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +124,8 @@
 		45FBFEC123F8E2B60045A202 /* HackerNewsiOS */ = {
 			isa = PBXGroup;
 			children = (
+				45FBFEF423F8F3900045A202 /* Common */,
+				45FBFEF223F8F3770045A202 /* Features */,
 				45FBFEC223F8E2B60045A202 /* AppDelegate.swift */,
 				45FBFECB23F8E2BA0045A202 /* Assets.xcassets */,
 				45FBFECD23F8E2BA0045A202 /* LaunchScreen.storyboard */,
@@ -119,6 +152,92 @@
 			path = HackerNewsiOSUITests;
 			sourceTree = "<group>";
 		};
+		45FBFEF223F8F3770045A202 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				45FBFEF323F8F3820045A202 /* TopStories */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		45FBFEF323F8F3820045A202 /* TopStories */ = {
+			isa = PBXGroup;
+			children = (
+				45FBFEF923F8F3B90045A202 /* Presenter */,
+				45FBFEF823F8F3B00045A202 /* Model */,
+				45FBFEF723F8F3A70045A202 /* Service */,
+				45FBFEF623F8F3A10045A202 /* Builder */,
+				45FBFEF523F8F39B0045A202 /* View */,
+			);
+			path = TopStories;
+			sourceTree = "<group>";
+		};
+		45FBFEF423F8F3900045A202 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				45FBFEFC23F8F43D0045A202 /* Extension */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		45FBFEF523F8F39B0045A202 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45FBFEFA23F8F3D40045A202 /* TopStoriesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45FBFEF623F8F3A10045A202 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		45FBFEF723F8F3A70045A202 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		45FBFEF823F8F3B00045A202 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45FBFEF923F8F3B90045A202 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		45FBFEFC23F8F43D0045A202 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				45FBFEFD23F8F44D0045A202 /* UIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B4E55FE68B2570D76DFC341A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D25E44BBCD156296DC478375 /* Pods-HackerNewsiOS.debug.xcconfig */,
+				45B238EE6306407FB3F4EF37 /* Pods-HackerNewsiOS.release.xcconfig */,
+				09720BE996419F3108BA85B0 /* Pods-HackerNewsiOS-HackerNewsiOSUITests.debug.xcconfig */,
+				AC2CCB358F1E942F4BA9842C /* Pods-HackerNewsiOS-HackerNewsiOSUITests.release.xcconfig */,
+				83D1E1EB5E36FE3AA9B5D658 /* Pods-HackerNewsiOSTests.debug.xcconfig */,
+				BB0FEE236CF046062FCF631B /* Pods-HackerNewsiOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45FBFEE923F8E2BA0045A202 /* Build configuration list for PBXNativeTarget "HackerNewsiOS" */;
 			buildPhases = (
+				0C5BB2BB3F9FE117951CB892 /* [CP] Check Pods Manifest.lock */,
 				45FBFEBB23F8E2B60045A202 /* Sources */,
 				45FBFEBC23F8E2B60045A202 /* Frameworks */,
 				45FBFEBD23F8E2B60045A202 /* Resources */,
+				D7A2DE1E06CB90F5B42120A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45FBFEEC23F8E2BA0045A202 /* Build configuration list for PBXNativeTarget "HackerNewsiOSTests" */;
 			buildPhases = (
+				0EDBA66BB99F2B502351A02D /* [CP] Check Pods Manifest.lock */,
 				45FBFED123F8E2BA0045A202 /* Sources */,
 				45FBFED223F8E2BA0045A202 /* Frameworks */,
 				45FBFED323F8E2BA0045A202 /* Resources */,
@@ -161,9 +283,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45FBFEEF23F8E2BA0045A202 /* Build configuration list for PBXNativeTarget "HackerNewsiOSUITests" */;
 			buildPhases = (
+				32A423FDE00619F368DC4906 /* [CP] Check Pods Manifest.lock */,
 				45FBFEDC23F8E2BA0045A202 /* Sources */,
 				45FBFEDD23F8E2BA0045A202 /* Frameworks */,
 				45FBFEDE23F8E2BA0045A202 /* Resources */,
+				39F3E667D0D6E43970920506 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,11 +368,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C5BB2BB3F9FE117951CB892 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackerNewsiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EDBA66BB99F2B502351A02D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackerNewsiOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32A423FDE00619F368DC4906 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackerNewsiOS-HackerNewsiOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39F3E667D0D6E43970920506 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackerNewsiOS-HackerNewsiOSUITests/Pods-HackerNewsiOS-HackerNewsiOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackerNewsiOS-HackerNewsiOSUITests/Pods-HackerNewsiOS-HackerNewsiOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackerNewsiOS-HackerNewsiOSUITests/Pods-HackerNewsiOS-HackerNewsiOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7A2DE1E06CB90F5B42120A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackerNewsiOS/Pods-HackerNewsiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackerNewsiOS/Pods-HackerNewsiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackerNewsiOS/Pods-HackerNewsiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45FBFEBB23F8E2B60045A202 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FBFEFB23F8F3D40045A202 /* TopStoriesViewController.swift in Sources */,
+				45FBFEFE23F8F44D0045A202 /* UIColor.swift in Sources */,
 				45FBFEC323F8E2B60045A202 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +641,7 @@
 		};
 		45FBFEEA23F8E2BA0045A202 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25E44BBCD156296DC478375 /* Pods-HackerNewsiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -431,6 +661,7 @@
 		};
 		45FBFEEB23F8E2BA0045A202 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B238EE6306407FB3F4EF37 /* Pods-HackerNewsiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +681,7 @@
 		};
 		45FBFEED23F8E2BA0045A202 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D1E1EB5E36FE3AA9B5D658 /* Pods-HackerNewsiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +704,7 @@
 		};
 		45FBFEEE23F8E2BA0045A202 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB0FEE236CF046062FCF631B /* Pods-HackerNewsiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +727,7 @@
 		};
 		45FBFEF023F8E2BA0045A202 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09720BE996419F3108BA85B0 /* Pods-HackerNewsiOS-HackerNewsiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +748,7 @@
 		};
 		45FBFEF123F8E2BA0045A202 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC2CCB358F1E942F4BA9842C /* Pods-HackerNewsiOS-HackerNewsiOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
