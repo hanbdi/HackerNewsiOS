@@ -30,7 +30,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 private extension AppDelegate {
     func initRootViewController() -> UIViewController {
-        return UINavigationController(rootViewController: TopStoriesViewController())
+        let service: StoryServiceProtocol = StoryService()
+        let viewController = TopStoriesBuilder(service: service).build()
+        return UINavigationController(rootViewController: viewController) 
     }
     
     func setupAppearance() {

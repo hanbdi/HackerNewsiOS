@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,16 @@
 		45FBFEE523F8E2BA0045A202 /* HackerNewsiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFEE423F8E2BA0045A202 /* HackerNewsiOSUITests.swift */; };
 		45FBFEFB23F8F3D40045A202 /* TopStoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFEFA23F8F3D40045A202 /* TopStoriesViewController.swift */; };
 		45FBFEFE23F8F44D0045A202 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFEFD23F8F44D0045A202 /* UIColor.swift */; };
+		45FBFF0123F8F6610045A202 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFF0023F8F6610045A202 /* URLSessionProtocol.swift */; };
+		45FBFF0323F8F67D0045A202 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFF0223F8F67D0045A202 /* Optional.swift */; };
+		45FBFF0623F8F6E90045A202 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFF0523F8F6E90045A202 /* Logger.swift */; };
+		45FBFF0823F8F7090045A202 /* TopStoriesBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFF0723F8F7090045A202 /* TopStoriesBuilder.swift */; };
+		45FBFF0A23F8F7360045A202 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFF0923F8F7360045A202 /* Story.swift */; };
+		45FBFF0C23F8F7650045A202 /* TopStoriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFF0B23F8F7650045A202 /* TopStoriesPresenter.swift */; };
+		45FBFF0E23F8F7CD0045A202 /* StoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFF0D23F8F7CD0045A202 /* StoryService.swift */; };
+		45FBFF1123F8F9530045A202 /* StoryDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFF1023F8F9530045A202 /* StoryDatasource.swift */; };
+		45FBFF1323F8F9860045A202 /* TopStoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFF1223F8F9860045A202 /* TopStoriesTableViewCell.swift */; };
+		45FBFF1623F8F9E30045A202 /* LoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FBFF1523F8F9E30045A202 /* LoadingTableViewCell.swift */; };
 		5855D03A1F74063BA8B76047 /* Pods_HackerNewsiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1DA70544E916B621F92ED7 /* Pods_HackerNewsiOSTests.framework */; };
 		5CC2864024BBF20A6B0521F1 /* Pods_HackerNewsiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACD2EF6C45469F9479ADC4D /* Pods_HackerNewsiOS.framework */; };
 		816D3D2AB9C628FFD82847AF /* Pods_HackerNewsiOS_HackerNewsiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F015D836B2C077A2ADD085 /* Pods_HackerNewsiOS_HackerNewsiOSUITests.framework */; };
@@ -53,6 +63,16 @@
 		45FBFEE623F8E2BA0045A202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45FBFEFA23F8F3D40045A202 /* TopStoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesViewController.swift; sourceTree = "<group>"; };
 		45FBFEFD23F8F44D0045A202 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		45FBFF0023F8F6610045A202 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		45FBFF0223F8F67D0045A202 /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		45FBFF0523F8F6E90045A202 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		45FBFF0723F8F7090045A202 /* TopStoriesBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesBuilder.swift; sourceTree = "<group>"; };
+		45FBFF0923F8F7360045A202 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		45FBFF0B23F8F7650045A202 /* TopStoriesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesPresenter.swift; sourceTree = "<group>"; };
+		45FBFF0D23F8F7CD0045A202 /* StoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryService.swift; sourceTree = "<group>"; };
+		45FBFF1023F8F9530045A202 /* StoryDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDatasource.swift; sourceTree = "<group>"; };
+		45FBFF1223F8F9860045A202 /* TopStoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesTableViewCell.swift; sourceTree = "<group>"; };
+		45FBFF1523F8F9E30045A202 /* LoadingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingTableViewCell.swift; sourceTree = "<group>"; };
 		4E1DA70544E916B621F92ED7 /* Pods_HackerNewsiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerNewsiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D1E1EB5E36FE3AA9B5D658 /* Pods-HackerNewsiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNewsiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-HackerNewsiOSTests/Pods-HackerNewsiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC2CCB358F1E942F4BA9842C /* Pods-HackerNewsiOS-HackerNewsiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNewsiOS-HackerNewsiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-HackerNewsiOS-HackerNewsiOSUITests/Pods-HackerNewsiOS-HackerNewsiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +195,9 @@
 		45FBFEF423F8F3900045A202 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				45FBFF1423F8F9CE0045A202 /* View */,
+				45FBFF0423F8F6D80045A202 /* Utils */,
+				45FBFEFF23F8F6470045A202 /* Service */,
 				45FBFEFC23F8F43D0045A202 /* Extension */,
 			);
 			path = Common;
@@ -184,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				45FBFEFA23F8F3D40045A202 /* TopStoriesViewController.swift */,
+				45FBFF1223F8F9860045A202 /* TopStoriesTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,6 +215,7 @@
 		45FBFEF623F8F3A10045A202 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
+				45FBFF0723F8F7090045A202 /* TopStoriesBuilder.swift */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -198,6 +223,7 @@
 		45FBFEF723F8F3A70045A202 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				45FBFF0D23F8F7CD0045A202 /* StoryService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -205,6 +231,8 @@
 		45FBFEF823F8F3B00045A202 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				45FBFF0923F8F7360045A202 /* Story.swift */,
+				45FBFF1023F8F9530045A202 /* StoryDatasource.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -212,6 +240,7 @@
 		45FBFEF923F8F3B90045A202 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				45FBFF0B23F8F7650045A202 /* TopStoriesPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -220,8 +249,33 @@
 			isa = PBXGroup;
 			children = (
 				45FBFEFD23F8F44D0045A202 /* UIColor.swift */,
+				45FBFF0223F8F67D0045A202 /* Optional.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		45FBFEFF23F8F6470045A202 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				45FBFF0023F8F6610045A202 /* URLSessionProtocol.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		45FBFF0423F8F6D80045A202 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				45FBFF0523F8F6E90045A202 /* Logger.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		45FBFF1423F8F9CE0045A202 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45FBFF1523F8F9E30045A202 /* LoadingTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B4E55FE68B2570D76DFC341A /* Pods */ = {
@@ -234,7 +288,6 @@
 				83D1E1EB5E36FE3AA9B5D658 /* Pods-HackerNewsiOSTests.debug.xcconfig */,
 				BB0FEE236CF046062FCF631B /* Pods-HackerNewsiOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -476,9 +529,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FBFF0123F8F6610045A202 /* URLSessionProtocol.swift in Sources */,
+				45FBFF0623F8F6E90045A202 /* Logger.swift in Sources */,
+				45FBFF0323F8F67D0045A202 /* Optional.swift in Sources */,
+				45FBFF1623F8F9E30045A202 /* LoadingTableViewCell.swift in Sources */,
 				45FBFEFB23F8F3D40045A202 /* TopStoriesViewController.swift in Sources */,
+				45FBFF0C23F8F7650045A202 /* TopStoriesPresenter.swift in Sources */,
+				45FBFF1123F8F9530045A202 /* StoryDatasource.swift in Sources */,
+				45FBFF0E23F8F7CD0045A202 /* StoryService.swift in Sources */,
+				45FBFF1323F8F9860045A202 /* TopStoriesTableViewCell.swift in Sources */,
 				45FBFEFE23F8F44D0045A202 /* UIColor.swift in Sources */,
 				45FBFEC323F8E2B60045A202 /* AppDelegate.swift in Sources */,
+				45FBFF0823F8F7090045A202 /* TopStoriesBuilder.swift in Sources */,
+				45FBFF0A23F8F7360045A202 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

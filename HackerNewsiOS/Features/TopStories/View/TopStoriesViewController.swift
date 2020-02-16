@@ -9,7 +9,14 @@
 import UIKit
 import SnapKit
 
+protocol TopStoriesViewProtocol: class {
+    
+}
+
 class TopStoriesViewController: UIViewController {
+
+    var presenter: TopStoriesPresenterProtocol
+    private var dataSource: StoriesDataSource!
 
     // MARK: UI components
     
@@ -22,9 +29,24 @@ class TopStoriesViewController: UIViewController {
         setup()
     }
     
+    init(presenter: TopStoriesPresenterProtocol) {
+        self.presenter = presenter
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     @objc func refreshStories() {
         // TODO: fetch stories using presenter
     }
+}
+
+// MARK: Implements TopStoriesViewProtocol
+
+extension TopStoriesViewController: TopStoriesViewProtocol {
+    
 }
 
 // MARK: private methods
